@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: sans-serif;
 }
 
@@ -37,7 +38,8 @@ body {
   margin: 0px;
 }
 
-input, label {
+input,
+label {
   display: block;
   margin: 8px auto;
 }
@@ -47,7 +49,7 @@ input {
   width: 300px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100px;
 }
 
@@ -57,4 +59,8 @@ input[type=submit] {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+.dog-pics > img {
+  height: 500px;
 }
