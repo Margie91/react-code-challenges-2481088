@@ -1,12 +1,13 @@
-import './App.css'
-import ColorPicker from './07-color-picker/ColorPicker'
+import ColorPicker from "./07-color-picker/ColorPicker";
+// import Timer from "./06-timer/Timer";
+import "./App.css";
 
-function App () {
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <ColorPicker />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
